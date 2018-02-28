@@ -3,7 +3,7 @@ var http = require("http");
 var PORT = 7000;
 
 function handleRequest(request, response) {
-    response.end("You are great!: " + request.url);
+    response.end("You have nice hair: " + request.url);
 }
 
 var server = http.createServer(handleRequest);
@@ -17,7 +17,7 @@ var http = require("http");
 var PORT = 7500;
 
 function handleRequest(request, response) {
-    response.end("Thou art less than stellar! " + request.url);
+    response.end("You need to lose weight " + request.url);
 }
 
 var server = http.createServer(handleRequest);
